@@ -1,0 +1,61 @@
+
+* {
+    margin:0; 
+}    
+body{
+    background-color:black;
+}
+    
+    
+form {
+padding-bottom:150px;
+font-family: 'Space Mono', monospace;
+margin:20%;
+margin-top:5%;
+
+}
+
+h1{
+    padding-top:10%;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    color:black;
+}
+nav{
+    font-family: 'Space Mono', monospace;
+}
+nav a{
+    float:right;
+}
+    footer{
+        background-color:black;
+        margin:0;
+        color:white;
+        height: 10%;
+        text-align: center;
+        
+        
+    }
+    footer p {
+        font-size: 10px;
+        text-align: center;
+        
+    }
+    
+    footer h3 {
+        padding-top: 1%;
+        color:gold;
+    }
+
+
+    #img{
+
+        width:200px; 
+        position: absolute;
+        left: 40%;
+    }
+
+    #login{
+
+        margin-top:200px;
+    }

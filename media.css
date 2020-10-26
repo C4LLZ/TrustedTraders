@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@media screen and (max-width: 700px) {
+    .vh {
+        background: black;
+    }
+   .carousel{
+    width: 100%;
+    height: 60%;
+    display:block;
+    
+    
+}
+    
+/*  Typewriter  */
+    #demo {
+        font-size: 24px;
+        padding-left: 10%;
+    }
+
+    .strack {
+        height: 5%;
+
+    }
+    #login{
+        width: 20%;
+        height: 20%;
+    }
+
+    #demo span {
+        top:100px;
+        height: 10px;
+        line-height: 20px;
+    }
+
+    #demo span {
+        display: inline-block;
+        position: relative;
+
+    }
+
+    #demo span.head {
+        margin-left: 40px;
+    }
+
+    #demo span.space {
+        margin-right: 4px;
+
+    }
+
+    #demo span.current::after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        height: 20px;
+        top: 50%;
+        right: -3px;
+        transform: translateY(-20%);
+        border-left: 2px solid white;
+        animation: blink-caret 0.9s step-end infinite;
+
+    }
+    #cryptoarticle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    grid-gap: 10px;
+    color: White;
+    margin:auto;
+    padding-left:10%;
+    
+
+}
+
+#demo span.current.space::after {
+        right: -6px;
+
+    }
+#cryptoarticle {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+}
+}
+    article{
+        height: 100%;
+    }
+    article img{
+        width: 80%;
+        height: 60%;
+        margin-left: 20px;
+    }
+
+@media screen and (min-width: 700px) {
+    .vh {
+        background: black;
+    }
+
+    #demo {
+        font-size: 50px;
+        padding-left: 10%;
+    }
+
+    #vhh {
+        font-size: 10px;
+        text-align: center;
+        padding-left: 10%;
+    }
+
+    .strack {
+        height: 7%;
+
+    }
+    #cryptoarticle {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+}
+
+}
+
+@media screen and (min-width: 1500px) {
+    0h {
+        background: black;
+    }
+
+    #demo {
+        font-size: 70px;
+        padding-left: 10%;
+    }
+
+    #vhh {
+        font-size: 75px;
+        text-align: center;
+        padding-left: 10%;
+    }
+
+    .strack {
+        height: 10%;
+
+
+    }
